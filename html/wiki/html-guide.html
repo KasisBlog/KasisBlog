@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta name="color-scheme" content="light dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KasisBlog</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <div class="nav-container">
+        <nav>
+            <ul class="mobile-nav">
+                <li>
+                    <div class="menu-icon-container">
+                        <div class="menu-icon">
+                            <span class="line-1"></span>
+                            <span class="line-2"></span>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="../index.html" class="link-logo"></a>
+                </li>
+            </ul>
+
+            <ul class="desktop-nav">
+                <li>
+                    <a href="../index.html" class="link-logo"></a>
+                </li>
+                <li>
+                    <a href="../projects/projects.html">Projects</a>
+                </li>
+                <li>
+                    <a href="wiki.html">Wiki</a>
+                </li>
+                <li>
+                    <a href="../index.html">About</a>
+                </li>
+                <li>
+                    <a href="#">FCKU</a>
+                </li>
+                <li>
+                    <a href="#" class="link-search"></a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <div class="search-container hide">
+            <div class="link-search"></div>
+            <div class="search-bar">
+                <form action="">
+                    <input type="text" placeholder="Durchsuche KasisBlog">
+                </form>
+            </div>
+            <div class="link-close"></div>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li>
+                        <a href="#">RaspberryPi</a>
+                    </li>
+                    <li>
+                        <a href="#">ESP32</a>
+                    </li>
+                    <li>
+                        <a href="#">Arduino</a>
+                    </li>
+                    <li>
+                        <a href="#">Sever</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="mobile-search-container">
+            <div class="link-search"></div>
+            <div class="search-bar">
+                <form action="">
+                    <input type="text" placeholder="Durchsuche KasisBlog">
+                </form>
+            </div>
+            <span class="cancel-btn">Cancel</span>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li>
+                        <a href="#">RaspberryPi</a>
+                    </li>
+                    <li>
+                        <a href="#">ESP32</a>
+                    </li>
+                    <li>
+                        <a href="#">Arduino</a>
+                    </li>
+                    <li>
+                        <a href="#">Sever</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <div class="wiki">
+        
+        <div class="wiki-left">
+            
+            <img src="#" alt="WikiLogo" style="width: 75%;">
+            <hr>
+            
+            <div class="wiki-left-content">
+            <br>
+            <h2>$ Guides</h2>
+            <li><a link href="" style="color: #34aa34">> HTML</a></li>
+            <li> <a link href="css-guide.html" style="color: #34aa34">> CSS</a> </li>
+            <li><a link href=""style="color: #34aa34">> JavaScript</a></li>
+            <br>
+            <h2>$ Wiki</h2>
+            <li><a alink href=""style="color: #34aa34">> RaspberryPi</a></li>
+            <li><a link href=""style="color: #34aa34">> Arduino</a></li>
+            
+            </div>
+
+        </div>
+
+        <div class="wiki-main"  align="justify">
+
+            <div class="wiki-content">
+                <div class="wiki-content-h">
+                    
+                    <h1>$ HTML Guide</h1>
+                    <br>
+                    <hr style="border-width: 1px;">
+                </div>
+                <div class="wiki-content-text" align="justify">
+                    <br>
+                    <p>
+                        HTML (HyperText Markup Language) is the standard markup language used to create the structure and content of web pages. 
+                        It consists of a series of elements that define the different parts of a webpage. Let's start by understanding the basics of HTML:
+                    </p>
+                </div>
+                
+                <br>
+
+                <div class="wiki-content-h">
+                    <h3>$ Setting Up Your Environment</h3>
+                    <br>
+                    <hr style="border-width: 1px;">
+                </div>
+
+                <div class="wiki-content-text" align="justify">
+                    <br>
+                    <p>
+                        To write HTML code, you'll need a text editor and a web browser. 
+                        Popular text editors include Visual Studio Code, Sublime Text, or even Notepad. Your web browser will be used to view and test your HTML pages.
+                    </p>
+                </div>
+
+                <br>
+
+                <div class="wiki-content-h">
+                    <h3>$ Creating Your First HTML Document</h3>
+                    <br>
+                    <hr style="border-width: 1px;">
+                </div>
+
+                <div class="wiki-content-text" align="justify">
+                    <br>
+                    <p>
+                        Open your text editor and create a new file. Save it with a .html extension. A basic HTML document structure looks like this:
+                    </p>
+
+                    <br>
+
+                    <div class="code-box" align="justify">
+                        <pre><code>
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; color: rgb(131, 148, 150);"><span class="xml"><span class="hljs-meta" style="color: rgb(203, 75, 22);">&lt;!DOCTYPE html&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">html</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">head</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">title</span>&gt;</span>Your Page Title<span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">title</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">head</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">body</span>&gt;</span>
+                        
+    <span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">h1</span>&gt;</span>Hello, World!<span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">h1</span>&gt;</span>
+                        
+    <span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">p</span>&gt;</span>This is a paragraph of text.<span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">p</span>&gt;</span>
+                        
+    <span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">body</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">html</span>&gt;</span>
+    </span></pre>
+    </code></pre>
+                    </div>
+
+                    <br>
+                    
+                    </div>
+
+                    <div class="wiki-content-text" align="justify">
+                    <p>
+                        <li><span style="color: rgb(228, 19, 228);"> &lt!DOCTYPE html&gt</span> This declaration defines the document type and version of HTML.</li>
+                        <li><span style="color: rgb(228, 19, 228);">&lthtml&gt</span>: This is the root element of an HTML page.</li>
+                        <li><span style="color: rgb(228, 19, 228);">&lthead&gt</span>: Contains meta-information about the HTML document.</li>
+                        <li><span style="color: rgb(228, 19, 228);">&lttitle&gt</span>: Sets the title of the webpage (displayed in the browser's title bar or tab).</li>
+                        <li><span style="color: rgb(228, 19, 228);">&ltbody&gt</span>: Contains the visible content of the webpage.</li>
+                        <li><span style="color: rgb(228, 19, 228);">&lth1" and &ltp&gt"</span>: Examples of HTML elements used to display headings and paragraphs.</li>
+                    </p>
+                    </div>
+                    <br>
+
+                    <div class="wiki-content-h">
+                        <h3>$ Understanding HTML Elements</h3>
+                        <br>
+                        <hr style="border-width: 1px;">
+                    </div>
+    
+                    <div class="wiki-content-text" align="justify">
+                        <br>
+                        <p>
+                            HTML elements are defined by tags. Tags are enclosed in angle brackets (`
+
+                            html) and usually come in pairs: an opening tag 
+                            
+                                (&lttag&gt) and a closing tag (&lt/tag&gt). Some tags, like &ltimg&gt for images or &ltbr&gt for line breaks, are self-closing and don't require a closing tag.
+                        </p>
+                        
+                        <br>
+                        
+                        <h4 style="color: white;">Text Elements:</h4>
+                        <li><span style="color: rgb(228, 19, 228);">&lth1&gt, &lth2&gt, &lth3&gt, &lth4&gt, &lth5&gt, &lth6&gt</span>: Headings of varying sizes.</li>
+                        <li><span style="color: rgb(228, 19, 228);">&ltp&gt</span>: Paragraphs of text.</li>
+                        <li><span style="color: rgb(228, 19, 228);">&ltstrong&gt or &ltb&gt</span>: Bold text.</li>
+                        <li><span style="color: rgb(228, 19, 228);">&ltem&gt or &lti&gt</span>: Italicized text.</li>
+                        <li><span style="color: rgb(228, 19, 228);">&ltu&gt</span>: Underlined text.</li>
+                        <br>
+                        <h4 style="color: white;">Links and Images:</h4>
+                        <li><span style="color: rgb(228, 19, 228);">&lta href="url"&gt Link Text &lt/a&gt</span>: Creates a hyperlink.</li>
+                        <li><span style="color: rgb(228, 19, 228);">&ltimg src="image.jpg" alt="Description"&gt</span>: Inserts an image.</li>
+                        <br>
+                        <h4 style="color: white;">Lists:</h4>
+                        <li><span style="color: rgb(228, 19, 228);">&ltul&gt </span>: Unordered list.</li>
+                        <li><span style="color: rgb(228, 19, 228);">&ltli&gt </span>: List item.</li>
+                        <li><span style="color: rgb(228, 19, 228);">&ltol&gt </span>: Ordered list.</li>
+                        <li><span style="color: rgb(228, 19, 228);">&ltli&gt </span>: List item.</li>
+
+                        <br>
+
+                        </div>
+
+                        <div class="wiki-content-h">
+                            <h3>$ Adding Structure and Semantics</h3>
+                            <br>
+                            <hr style="border-width: 1px;">
+                        </div>
+        
+                        <div class="wiki-content-text" align="justify">
+                            <br>
+                            <p>
+                                HTML5 introduced semantic elements that provide more meaning to the content. 
+                                Some commonly used semantic elements include &ltheader&gt, &ltnav&gt, &ltmain&gt, &ltsection&gt, &ltarticle&gt, &ltaside&gt, and &ltfooter&gt.
+                            </p>
+                            <br>
+                            <p>
+                                Example:
+                            </p>
+
+                            <div class="code-box"  align="justify">
+                                <pre><code>
+<pre class="hljs" style="display: block; overflow-x: auto; padding: 0.5em; color: rgb(131, 148, 150);"><span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">header</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">h1</span>&gt;</span>Website Header<span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">h1</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">nav</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">ul</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">a</span> <span class="hljs-attr" style="color: rgb(181, 137, 0);">href</span>=<span class="hljs-string" style="color: rgb(42, 161, 152);">"#"</span>&gt;</span>Home<span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">a</span> <span class="hljs-attr" style="color: rgb(181, 137, 0);">href</span>=<span class="hljs-string" style="color: rgb(42, 161, 152);">"#"</span>&gt;</span>About<span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">li</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">li</span>&gt;</span><span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">a</span> <span class="hljs-attr" style="color: rgb(181, 137, 0);">href</span>=<span class="hljs-string" style="color: rgb(42, 161, 152);">"#"</span>&gt;</span>Contact<span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">a</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">li</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">ul</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">nav</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">header</span>&gt;</span>
+                                    
+<span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">main</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">section</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">h2</span>&gt;</span>About Us<span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">p</span>&gt;</span>Welcome to our website! Learn more about our company...<span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">section</span>&gt;</span>
+                                    
+    <span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">article</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">h2</span>&gt;</span>Latest News<span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">h2</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">p</span>&gt;</span>Read all about our exciting developments...<span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">article</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">main</span>&gt;</span>
+                                    
+<span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">footer</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name" style="color: rgb(38, 139, 210);">p</span>&gt;</span>&amp;copy; 2024 Your Company<span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">p</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name" style="color: rgb(38, 139, 210);">footer</span>&gt;</span>
+                                    </span></pre>
+                                </code></pre>
+                            </div>
+
+                        </div>
+                    <br>
+
+                    <div class="wiki-content-h">
+                        <h3>$ Validating and Testing Your HTML</h3>
+                        <br>
+                        <hr style="border-width: 1px;">
+                    </div>
+    
+                    <div class="wiki-content-text" align="justify">
+                        <br>
+                        <p>
+                            To ensure your HTML code is correct, use online validators like the W3C Markup Validation Service. 
+                            Always test your HTML in different browsers to ensure cross-browser compatibility.
+                        </p>
+                    </div>
+    
+                    <br>
+
+                    <div class="wiki-content-h">
+                        <h3>$ Learning Resources</h3>
+                        <br>
+                        <hr style="border-width: 1px;">
+                    </div>
+    
+                    <div class="wiki-content-text" align="justify">
+                        <br>
+                        <p>
+                            <li>> Online tutorials and courses (e.g., W3Schools, SelfHTML,...)</li>
+                            <li>> Books on HTML and web development</li>
+                            <li>> Experiment with code and learn from practical examples</li>
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+<footer>
+    <center>
+    <p>Copyright © 2024 KasisBlog. All rights reserved.</p></center>
+</footer>
+
+
+
+
+
+<div class="overlay"></div>
+
+<script src="../main.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script> 
+
+
+</body>
+
+</html>

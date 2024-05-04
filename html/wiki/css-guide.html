@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<meta name="color-scheme" content="light dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KasisBlog</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+    <div class="nav-container">
+        <nav>
+            <ul class="mobile-nav">
+                <li>
+                    <div class="menu-icon-container">
+                        <div class="menu-icon">
+                            <span class="line-1"></span>
+                            <span class="line-2"></span>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <a href="../index.html" class="link-logo"></a>
+                </li>
+            </ul>
+
+            <ul class="desktop-nav">
+                <li>
+                    <a href="../index.html" class="link-logo"></a>
+                </li>
+                <li>
+                    <a href="../projects/projects.html">Projects</a>
+                </li>
+                <li>
+                    <a href="wiki.html">Wiki</a>
+                </li>
+                <li>
+                    <a href="../index.html">About</a>
+                </li>
+                <li>
+                    <a href="#">FCKU</a>
+                </li>
+                <li>
+                    <a href="#" class="link-search"></a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <div class="search-container hide">
+            <div class="link-search"></div>
+            <div class="search-bar">
+                <form action="">
+                    <input type="text" placeholder="Durchsuche KasisBlog">
+                </form>
+            </div>
+            <div class="link-close"></div>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li>
+                        <a href="#">RaspberryPi</a>
+                    </li>
+                    <li>
+                        <a href="#">ESP32</a>
+                    </li>
+                    <li>
+                        <a href="#">Arduino</a>
+                    </li>
+                    <li>
+                        <a href="#">Sever</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="mobile-search-container">
+            <div class="link-search"></div>
+            <div class="search-bar">
+                <form action="">
+                    <input type="text" placeholder="Durchsuche KasisBlog">
+                </form>
+            </div>
+            <span class="cancel-btn">Cancel</span>
+
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li>
+                        <a href="#">RaspberryPi</a>
+                    </li>
+                    <li>
+                        <a href="#">ESP32</a>
+                    </li>
+                    <li>
+                        <a href="#">Arduino</a>
+                    </li>
+                    <li>
+                        <a href="#">Sever</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+    <div class="wiki">
+        
+        <div class="wiki-left">
+            
+            <img src="#" alt="WikiLogo" style="width: 75%;">
+            <hr>
+            
+            <div class="wiki-left-content">
+            <br>
+            <h2>$ Guides</h2>
+            <li><a link href="html-guide.html" style="color: #34aa34">> HTML</a></li>
+            <li> <a link href="css-guide.html" style="color: #34aa34">> CSS</a> </li>
+            <li><a link href=""style="color: #34aa34">> JavaScript</a></li>
+            <br>
+            <h2>$ Wiki</h2>
+            <li><a alink href=""style="color: #34aa34">> RaspberryPi</a></li>
+            <li><a link href=""style="color: #34aa34">> Arduino</a></li>
+            
+            </div>
+
+        </div>
+
+        <div class="wiki-main"  align="justify">
+
+            <div class="wiki-content">
+                <div class="wiki-content-h">
+                    
+                    <h1>$ CSS Guide</h1>
+                    <br>
+                    <hr style="border-width: 1px;">
+                </div>
+                <div class="wiki-content-text" align="justify">
+                    <br>
+                    <p>
+                        Cascading Style Sheets (CSS) is a fundamental technology used to define the presentation and layout of web pages. It works alongside HTML to structure and design the visual elements of a website. 
+                        This guide will cover CSS from basic syntax to more advanced techniques.
+                    </p>
+                </div>
+                
+                <br>
+
+                <div class="wiki-content-h">
+                    <h3>$ Introduction to CSS</h3>
+                    <br>
+                    <hr style="border-width: 1px;">
+                </div>
+
+                <div class="wiki-content-text" align="justify">
+                    <br>
+                    <p>
+                        CSS stands for Cascading Style Sheets. It is a language used to describe the presentation of a document written in HTML or XML.
+                        CSS controls the style, layout, and design of multiple web pages at once, making it a powerful tool for web development.
+                    </p>
+                </div>
+
+                <br>
+
+                <div class="wiki-content-h">
+                    <h3>$ Basic CSS Syntax</h3>
+                    <br>
+                    <hr style="border-width: 1px;">
+                </div>
+
+                <div class="wiki-content-text" align="justify">
+                    <br>
+                    <p>
+                        CSS uses a simple syntax to apply styles to HTML elements. Here's an example:
+                    </p>
+
+                    <br>
+
+                    <div class="code-box" align="justify">
+                        <pre><code>
+ /* Selects all "p" elements and sets font size to 16px */
+ <br>
+p {
+font-size: 16px;
+color: #333;
+}
+                        </code></pre>
+                    </div>
+
+                    <br>
+                    
+                    </div>
+
+                    <br>
+
+                    <div class="wiki-content-h">
+                        <h3>$ Selectors</h3>
+                        <br>
+                        <hr style="border-width: 1px;">
+                    </div>
+    
+                    <div class="wiki-content-text" align="justify">
+                        <br>
+                        <p>
+                            Selectors are patterns used to select HTML elements to style. Common selectors include:
+                        </p>
+                        
+                        <br>
+                        
+                        <li><span style="color: rgb(228, 19, 228);">Element Selector</span>: Targets specific HTML elements (p, h1, div)</li>
+                        <li><span style="color: rgb(228, 19, 228);">Class Selector</span>: Targets elements with a specific class (.btn, .container)</li>
+                        <li><span style="color: rgb(228, 19, 228);">ID Selector</span>: Targets a unique element with a specific ID (#header, #sidebar)</li>
+                        <li><span style="color: rgb(228, 19, 228);">Attribute Selector</span>: Targets elements based on attributes ([type="text"])</li>
+
+                        <br>
+
+                        </div>
+
+                        <div class="wiki-content-h">
+                            <h3>$ CSS Properties</h3>
+                            <br>
+                            <hr style="border-width: 1px;">
+                        </div>
+        
+                        <div class="wiki-content-text" align="justify">
+                            <br>
+                            <p>
+                                CSS properties define how HTML elements are displayed. Some common properties include:
+                            </p>
+                            <br>
+                            <li><span style="color: rgb(228, 19, 228);">color</span>: Sets the text color</li>
+                            <li><span style="color: rgb(228, 19, 228);">font-size</span>: Sets the font size</li>
+                            <li><span style="color: rgb(228, 19, 228);">margin, padding</span>: Controls spacing around elements</li>
+                            <li><span style="color: rgb(228, 19, 228);">border</span>: Defines the border around elements</li>
+                            <li><span style="color: rgb(228, 19, 228);">background</span>: Sets background properties like color or image.</li>
+
+                        </div>
+                    <br>
+
+                    <div class="wiki-content-h">
+                        <h3>$ Layout and Positioning</h3>
+                        <br>
+                        <hr style="border-width: 1px;">
+                    </div>
+    
+                    <div class="wiki-content-text" align="justify">
+                        <br>
+                        <p>
+                            CSS offers various methods to control layout and positioning:
+                        </p>
+                        <br>
+                        <li><span style="color: rgb(228, 19, 228);">Floats</span>: Positions elements to the left or right within their container.</li>
+                        <li><span style="color: rgb(228, 19, 228);">Flexbox</span>: Provides a more efficient way to layout items in a container.</li>
+                        <li><span style="color: rgb(228, 19, 228);">Grid</span>: Allows for complex layouts with rows and columns.</li>
+                    </div>
+    
+                    <br>
+
+                    <div class="wiki-content-h">
+                        <h3>$ Responsive Design</h3>
+                        <br>
+                        <hr style="border-width: 1px;">
+                    </div>
+    
+                    <div class="wiki-content-text" align="justify">
+                        <br>
+                        <p>
+                            Responsive design ensures your website looks good on all devices. CSS techniques for responsiveness include:
+                        </p>
+                        <br>
+                        <p>
+                            <li>> Media Queries: Apply styles based on screen size (@media (max-width: 768px))</li>
+                            <li>> Viewport Meta Tag: Sets the viewport width for mobile devices (>meta name="viewport" content="width=device-width, initial-scale=1.0"<)</li>
+                        </p>
+                        <br>
+                    </div>
+                    <div class="wiki-content-h">
+                        <h3>$ CSS Frameworks</h3>
+                        <br>
+                        <hr style="border-width: 1px;">
+                    </div>
+
+                    <div class="wiki-content-text" align="justify">
+                        <br>
+                        <p>
+                            Frameworks like Bootstrap and Foundation offer pre-designed CSS components and layouts to speed up development.
+                        </p>
+                    </div>
+
+                    <br>
+                
+                <div class="wiki-content-h">
+                    <h3>$ CSS Preprocessors</h3>
+                    <br>
+                    <hr style="border-width: 1px;">
+                </div>
+
+                <div class="wiki-content-text" align="justify">
+                    <br>
+                    <p>
+                        CSS preprocessors like Sass and Less extend CSS with variables, functions, and nested rules, making CSS more maintainable and efficient.
+                    </p>
+                </div>
+
+                <div class="wiki-content-h">
+                    <h3>$ Learning Resources</h3>
+                    <br>
+                    <hr style="border-width: 1px;">
+                </div>
+
+                <div class="wiki-content-text" align="justify">
+                    <br>
+                    <p>
+                        <li>> W3Schools CSS Tutorial (w3schools.com/css)</li>
+                        <li>> CSS-Tricks (css-tricks.com)</li>
+                        <li>> MDN Web Docs (developer.mozilla.org)</li>
+                    </p>
+                </div>
+
+            </div>
+
+
+
+
+        </div>
+
+    </div>
+
+
+
+
+
+<footer>
+    <center>
+    <p>Copyright © 2024 KasisBlog. All rights reserved.</p></center>
+</footer>
+
+
+
+
+
+<div class="overlay"></div>
+
+<script src="../main.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script> 
+
+
+</body>
+
+</html>
