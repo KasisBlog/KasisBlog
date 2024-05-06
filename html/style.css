@@ -894,16 +894,20 @@ margin-left: 15px;
 margin-right: 15px;
 margin-bottom: 15px;
 color: #ffffff;
-border: 1px solid #333;
-border-radius: 5px;
 }
 
+.wiki-content-border {
+    border: 3px solid #333;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
 .wiki-content-h {
 color: white;
 margin-left: 15px;
 margin-right: 15px;
 margin-top: 15px;
 margin-bottom: 15px;
+
 }
 
 .wiki-content-text {
